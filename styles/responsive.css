@@ -1,0 +1,90 @@
+@media screen and (max-width: 576px) {
+    .nav-btn{
+        visibility: hidden;
+    }
+    .header-container{
+        flex-direction: column;
+    }
+    .habit-change-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .run-extra-mile{
+        flex-direction: column;
+    }
+    /* .extra-mile-img img{
+        width: 290px;
+        height: 170px;
+        border-radius: 16px;
+    } */
+     .responsive{
+        width: 285px;
+        height: 50px;
+     }
+     .BMI-content-heading{
+        max-width: 80%;
+     }
+     .BMI-content-heading h2, .BMI-content-heading p{
+        text-align: left;
+        margin-left: 40px;
+     }
+     .BMI-content-heading p, .bmi-calculator p, .team p, .description-left p{
+        font-size: 20px;
+     }
+     
+     .calculation-bmi{
+        flex-direction: column;
+        padding: 30px;
+     }
+     .bmi-chart h3{
+        margin-left: 10px;
+     }
+     .table{
+        margin-left: 5px;
+       
+     }
+     .input-form input{
+        width: 170px;
+       
+     }
+     .input-form2 input{
+        width: 400px;
+     }
+     .calculate{
+        width: 228px;
+     }
+     .team-img-container{
+        flex-direction: column;
+     }
+     .team-img-container img{
+        width: 350px;
+     }
+     .final-description{
+        flex-direction: column;
+     }
+     .description-right{
+        flex-direction: column;
+        margin-top: 30px;
+     }
+     .list-1 ul, .list-2 ul{
+        font-size: 30px;
+     }
+     .list-1 h3, .list-2 h3{
+        font-size: 35px;
+     }
+     hr{
+        margin-left: 3px;
+        width: 510px;
+     }
+     .copy-right p{
+        font-size: 24px;
+        text-align: left;
+     }
+     .btn-for-img{
+        left: 240px;
+        top: 650px;
+     }
+     .btn2-for-img{
+        left: 40px;
+        top: 900px;
+     }
+}
